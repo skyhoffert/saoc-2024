@@ -1,0 +1,14 @@
+#comment
+
+$x = 2
+
+# empty line
+%hi
+$x = 1
+
+%mid
+jump end
+$x = 3
+#comment
+
+%end

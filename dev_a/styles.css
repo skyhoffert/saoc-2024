@@ -1,0 +1,91 @@
+:root {
+    --left-align: 5px;
+    --top-align: 5px;
+    --bg-color: #202020;
+    --text-color: white;
+    --font-size: 18px;
+}
+
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+#coding-area {
+    position: absolute;
+    left: var(--left-align);
+    top: var(--top-align);
+    width: 500px;
+    height: 500px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    resize: none;
+    font-size: var(--font-size);
+}
+
+#program-area {
+    position: absolute;
+    left: 530px;
+    top: var(--top-align);
+    width: 500px;
+    height: 500px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+#console {
+    position: absolute;
+    left: var(--left-align);
+    top: 600px;
+    width: 1500px;
+    height: 300px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+#workspace {
+    position: absolute;
+    left: 1040px;
+    top: var(--top-align);
+    width: 500px;
+    height: 500px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+#run {
+    position: absolute;
+    left: 10px;
+    top: 525px;
+    width: 200px;
+    height: 50px;
+    font-size: var(--font-size);
+}
+
+#step {
+    position: absolute;
+    left: 525px;
+    top: 525px;
+    width: 200px;
+    height: 50px;
+    font-size: var(--font-size);
+}
+
+#arrow {
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    color: red;
+    font-size: var(--font-size);
+}

@@ -1,0 +1,9 @@
+$x = 0
+jump %loopstart
+%loopret
+$y = $x
+exit
+
+%loopstart
+$x = $x + 1
+jump %loopret

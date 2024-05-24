@@ -1,0 +1,44 @@
+:root {
+    --left-align: 5px;
+    --top-align: 5px;
+    --bg-color: #202020;
+    --text-color: white;
+    --font-size: 18px;
+}
+
+* {
+    font-family: monospace;
+    color: var(--text-color);
+}
+
+body {
+    background-color: black;
+}
+
+#file_zone {
+    background-color: #252525;
+    border: 5px solid blue;
+    width: 30vw;
+    height: 600px;
+    font-size: var(--font-size);
+    position: absolute;
+    left: var(--left-align);
+    top: var(--top-align);
+    resize: none;
+    white-space: pre-wrap;
+    overflow: auto;
+}
+
+#console_zone {
+    background-color: #252525;
+    border: 5px solid blue;
+    width: 95vw;
+    height: 300px;
+    font-size: var(--font-size);
+    position: absolute;
+    left: var(--left-align);
+    top: 620px;
+    resize: none;
+    white-space: pre-wrap;
+    overflow: auto;
+}

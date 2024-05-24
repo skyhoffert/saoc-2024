@@ -1,0 +1,10 @@
+$x = 1
+$y = 2
+$y_copy = $y
+$z = $x + $y
+$newvar_name = 7
+$x = $z * 2
+$badvar= 3
+$badvar2 =3
+$goodwhitespacevar      =     9
+noop

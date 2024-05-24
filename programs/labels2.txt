@@ -1,0 +1,11 @@
+jump %skipper
+%a
+$x = 1
+jump %end
+
+%skipper
+$x = 2
+jump %a
+
+%end
+$x = 3
